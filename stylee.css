@@ -49,25 +49,46 @@ h2{
     margin-left: 0px;
     margin-bottom: 20px;
     border-radius: 50px;
+}#o-val{
+    padding: 12px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    border-radius: 50px;
 }
 #i1-val{
     padding: 12px;
     margin-left: 0px;
     margin-bottom: 20px;
     border-radius: 50px;
+}#o1val{
+    padding: 12px;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    border-radius: 50px;
 }
-.button{
+#convert{
     padding: 8px;
     margin: 10px;
     border-radius: 10px;
     background-color:bisque;
 }
-.button:hover{
+#convert:hover{
     color: aliceblue;
     background-color: rgb(177, 197, 113);
 }
 
-#f-c{
+#reset{
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color:bisque;
+}
+#reset:hover{
+    color: aliceblue;
+    background-color: rgb(177, 197, 113);
+}
+
+/*#f-c{
     padding: 12px;
     margin-left: 0px;
     margin-bottom: 20px;
@@ -78,4 +99,4 @@ h2{
     margin-left: 0px;
     margin-bottom: 20px;
     border-radius: 50px;
-}
+}*/

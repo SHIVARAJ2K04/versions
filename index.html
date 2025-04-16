@@ -4,8 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="stylee.css">
 </head>
 <body>
-    
+    <div id="wrapper">
+        <div id="C-F">
+            <h2>Celcius to Fahrenheit Convertor</h2>
+            <input type="number" id="i-val">
+            <input type="text" id="o-val"><br><br>
+            <button id="convert" onclick="convert()">Convert</button>
+            <button id="reset" onclick="reset()">Reset</button>
+        </div>
+        
+        <div id="F-C">
+            <h2>Fahrenheit to Celcius Convertor</h2>
+            <input type="number" id="i1-val">
+            <input type="text" id="o1-val"><br><br>
+            <button id="convert" onclick="convert()">Convert</button>
+            <button id="reset" onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <script>
+        function convert(type){
+            if(type === C-F){
+           let input = parseFloat(document.getElementById("i-val").value);
+           let output = input *(9/5);
+           document.getElementById("o-val").value =isNaN(output)?"":output.toFixed(2)+"°F";
+           }
+           else{
+            let input = parseFloat(document.getElementById("i1val").value);
+           let output = input *(5/9);
+           document.getElementById("o1val").value =isNaN(output)?"":output.toFixed(2)+"°F";
+           }
+            
+        }
+        function reset(){
+            document.getElementById("i-val").value="";
+            document.getElementById("o-val").value="";
+        }
+    </script>
 </body>
 </html>
